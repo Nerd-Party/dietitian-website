@@ -2,10 +2,10 @@ export const HEADER_HEIGHT = 64;
 export const FOOTER_HEIGHT = 36;
 
 export const colors = {
-  // Generic
+  // General
   text: '#1d1d1d',
 
-  // Out
+  // Theme
   primary: '#FAFAFA',
   secondary: '#FFEFE0',
   tertiary: '#FED9CA',
@@ -19,10 +19,13 @@ const globalStyles = {
 
     display: 'flex',
     flexFlow: 'column nowrap',
-    justifyContent: 'center',
+    justifyContent: 'flex-start',
     alignItems: 'stretch',
 
     marginTop: HEADER_HEIGHT,
+    marginBottom: `calc(${HEADER_HEIGHT}px / 2)`,
+
+    lineHeight: 1.5,
   },
 };
 

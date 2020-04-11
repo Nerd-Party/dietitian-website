@@ -1,4 +1,4 @@
-const pixels = {
+const widths = {
   small: 600,
   medium: 960,
   large: 1280,
@@ -6,10 +6,10 @@ const pixels = {
 };
 
 const mediaQueries = {
-  smallWidth: `(max-width:${pixels.small}px)`,
-  mediumWidth: `(max-width:${pixels.medium}px)`,
-  largeWidth: `(max-width:${pixels.large}px)`,
-  xLargeWidth: `(max-width:${pixels.xLarge}px)`,
+  smallWidth: `(max-width:${widths.small}px)`,
+  mediumWidth: `(max-width:${widths.medium}px)`,
+  largeWidth: `(max-width:${widths.large}px)`,
+  xLargeWidth: `(max-width:${widths.xLarge}px)`,
 };
 
 export default mediaQueries;
