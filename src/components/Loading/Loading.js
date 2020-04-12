@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import ClipLoader from 'react-spinners/CircleLoader';
+import ClipLoader from 'react-spinners/ClipLoader';
 import { createUseStyles } from 'react-jss';
 
 import stylesheet from './stylesheet';
@@ -13,7 +13,7 @@ const Loading = (props) => {
 
   return (
     <div className={classNames(props.className, classes.container)}>
-      <ClipLoader />
+      <ClipLoader size={55} />
     </div>
   );
 };
